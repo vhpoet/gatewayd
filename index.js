@@ -11,6 +11,7 @@ exports.server = require(__dirname+'/lib/app.js');
 exports.processes = require(__dirname+'/lib/processes/');
 exports.logger = require(__dirname+'/lib/data/logs.js');
 exports.ripple = require(__dirname+'/lib/ripple');
+exports.features = require(__dirname+'/lib/features');
 
 var initializers = requireAll(__dirname+'/config/initializers/');
 
