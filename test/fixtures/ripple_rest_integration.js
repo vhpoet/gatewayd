@@ -114,5 +114,35 @@ module.exports = {
       client_resource_id: '1',
       status_url: 'https://api.ripple.com/v1/accounts/rDmSZbgLbw7qkkgDXMWoiSQX7VZ6KknWcL/payments/1'
     }
+  },
+  notifications: {
+    payment: { account: 'rMinhWxZz4jeHoJGyddtmwg6dWhyqQKtJz',
+      type: 'payment',
+      direction: 'incoming',
+      state: 'validated',
+      result: 'tesSUCCESS',
+      ledger: '10442591',
+      hash: '3639892C4525F04E4E6E7AAD6F729C9A74E96AD3616A8F6689D1FCA330EAFF79',
+      timestamp: '2014-12-10T23:39:20.000Z',
+      transaction_url: 'https://api.ripple.com/v1/accounts/rMinhWxZz4jeHoJGyddtmwg6dWhyqQKtJz/payments/3639892C4525F04E4E6E7AAD6F729C9A74E96AD3616A8F6689D1FCA330EAFF79',
+      previous_hash: '7126588883E62A61F45E20AF22266D3A4403507DBCEF17F11E049EB3A6B4349A',
+      previous_notification_url: 'https://api.ripple.com/v1/accounts/rMinhWxZz4jeHoJGyddtmwg6dWhyqQKtJz/notifications/7126588883E62A61F45E20AF22266D3A4403507DBCEF17F11E049EB3A6B4349A',
+      next_hash: 'E6DC30EFB39E8F11F361387B85CF8DA1FFF39D0376512084E41BDED1405AD571',
+      next_notification_url: 'https://api.ripple.com/v1/accounts/rMinhWxZz4jeHoJGyddtmwg6dWhyqQKtJz/notifications/E6DC30EFB39E8F11F361387B85CF8DA1FFF39D0376512084E41BDED1405AD571',
+      next_notification_hash: 'E6DC30EFB39E8F11F361387B85CF8DA1FFF39D0376512084E41BDED1405AD571' },
+    non_payment: { account: 'rMinhWxZz4jeHoJGyddtmwg6dWhyqQKtJz',
+      type: 'payment',
+      direction: 'incoming',
+      state: 'validated',
+      result: 'tesSUCCESS',
+      ledger: '10442786',
+      hash: 'E6DC30EFB39E8F11F361387B85CF8DA1FFF39D0376512084E41BDED1405AD571',
+      timestamp: '2014-12-10T23:53:00.000Z',
+      transaction_url: 'https://api.ripple.com/v1/accounts/rMinhWxZz4jeHoJGyddtmwg6dWhyqQKtJz/payments/E6DC30EFB39E8F11F361387B85CF8DA1FFF39D0376512084E41BDED1405AD571',
+      previous_hash: '3639892C4525F04E4E6E7AAD6F729C9A74E96AD3616A8F6689D1FCA330EAFF79',
+      previous_notification_url: 'https://api.ripple.com/v1/accounts/rMinhWxZz4jeHoJGyddtmwg6dWhyqQKtJz/notifications/3639892C4525F04E4E6E7AAD6F729C9A74E96AD3616A8F6689D1FCA330EAFF79',
+      next_hash: '317BEF6ABC28E0CA6C09FD654FBAA401B52D962997B404B3A4849BE960AFC2F6',
+      next_notification_url: 'https://api.ripple.com/v1/accounts/rMinhWxZz4jeHoJGyddtmwg6dWhyqQKtJz/notifications/317BEF6ABC28E0CA6C09FD654FBAA401B52D962997B404B3A4849BE960AFC2F6',
+      next_notification_hash: '317BEF6ABC28E0CA6C09FD654FBAA401B52D962997B404B3A4849BE960AFC2F6' }
   }
 };
